@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>正在跳转...</p>
+  <a id="link">点击这里继续</a>
+
+  <script>
+    // 以后只需更换下面这个链接
+    const target = "https://www.youtube.com/@MayHo/videos";
+
+    document.getElementById("link").href = target;
+    window.location.replace(target);
+  </script>
+</body>
+</html>
